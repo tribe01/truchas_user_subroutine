@@ -1,3 +1,5 @@
+# Make file to compile and create shared library object to call in Truchas input file *.inp
+# Add and remove the heat source functions as neccessary
 FC=ifort
 FFLAGS=-fPIC -c
 LFLAGS=-shared
